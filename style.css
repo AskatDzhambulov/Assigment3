@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color: #fdf6d9;
 }
 #main_title img{
     float:left;
@@ -22,17 +22,19 @@ h1{
 h2{
     font-size: 120%;
     font-weight: normal;
+    float: left;
 }
 .Zozor{
     font-family:ballpark;
 }
 nav{
-    text-align: right;
+    text-align: center;
     border: 3px solid blue;
-    margin-right: 6%;
+    margin-right:3%;
     margin-left: 70%;
     padding-right: 5%;
     border-radius: 20px;
+    margin-bottom: 0.5%;
 }
 #banner_image{
     background-image: url("../images/sanfrancisco.jpg");
@@ -40,6 +42,7 @@ nav{
     border-radius: 10px;
     box-shadow: 3px 3px 3px black;
     background-size: cover;
+    margin-top: 0.5%;
 }
 #banner_description{
     color:white;
@@ -58,4 +61,46 @@ nav{
     box-shadow: 1px 1px 1px darkred;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+article{
+    border:4px solid blueviolet;
+    width: 78.3%;
+    float: left;
+    border-radius: 10px;
+    padding-bottom:15.5%;
+    padding-left: 1%;
+
+}
+aside{
+    border: 4px solid deeppink;
+    margin-left: 80%;
+    vertical-align: -10%;
+    border-radius: 10px;
+    text-align:center;
+    background-color: grey;
+}
+section{
+    border:4px solid green;
+    margin-top:0.5%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    padding-right: 0.5%;
+    padding-left: 0.5% ;
+    border-radius: 10px;
+}
+#Social{
+
+}
+footer{
+    border: 4px solid blue;
+}
+#tweet{
+    border: 4px solid black;
+}
+#my_pictures{
+    border: 4px solid black;
+}
+#my_friends{
+    border: 4px solid black;
+
 }
