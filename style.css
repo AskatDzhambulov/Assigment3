@@ -92,15 +92,36 @@ section{
 
 }
 footer{
+    margin-top: 0.5%;
     border: 4px solid blue;
+    border-radius: 10px;
+    float: left;
+    width: 100%;
+}
+#tweet,#my_friends,#my_pictures{
+    float:left;
+    margin-top: 2%;
+    margin-right: 0.5%;
+    margin-bottom: 1%;
+    border-radius: 20px;
+
 }
 #tweet{
     border: 4px solid black;
+    margin-left: 1%;
+    margin-right: 0.5%;
+    padding-right: 7%;
 }
 #my_pictures{
     border: 4px solid black;
 }
 #my_friends{
     border: 4px solid black;
+    display: flex;
+    flex-flow: column;
 
+}
+.pic{
+    padding-left:0.5em;
+    padding-right: 0.5em;
 }
